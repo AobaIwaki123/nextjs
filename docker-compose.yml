@@ -6,5 +6,3 @@ services:
     volumes:
       - .:/app
       - ./my-app/node_modules:/app/my-app/node_modules
-    environment:
-      - NODE_ENV=development
